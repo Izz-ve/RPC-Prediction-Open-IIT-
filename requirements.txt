@@ -1,0 +1,29 @@
+"""
+CreditNirvana PS2: Installation & Quick Start
+==============================================
+
+Dependencies and setup instructions.
+"""
+
+# Create requirements.txt
+requirements_content = """# CreditNirvana PS2: Right-Party Contact Prediction
+# ================================================
+
+# Core data science
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+
+# Models
+xgboost==2.0.0
+lightgbm==4.0.0
+
+# Visualization (optional, for evaluation)
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Logging & utilities
+python-dotenv==1.0.0
+"""
+
+print(requirements_content)
